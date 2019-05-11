@@ -1,0 +1,24 @@
+.menu ul{
+	list-style: none;
+	background-color: black;
+
+}
+li{
+	display: inline-block;
+	padding: 20px 25px; 
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.b{
+	float: right;
+	background-color: green;
+}
+
+li:hover:not(.b) {
+    background-color: gray;
+}
